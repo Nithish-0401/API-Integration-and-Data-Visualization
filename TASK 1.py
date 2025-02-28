@@ -3,7 +3,7 @@ import requests
 import matplotlib.pyplot as plt
 #TO GET CITY NAME
 city_name=input('Enter a City Name:') 
-api_key='1381b935aeec62cd428bd18b2f868fa9'
+api_key='your api key'
 # TO GET API URL
 api_url=f'https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={api_key}&units=metric' 
 info=requests.get(api_url) 
